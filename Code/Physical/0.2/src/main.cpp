@@ -22,6 +22,7 @@ Drive robot(left_motor_group, right_motor_group, 4.125, 0.428571);
 
 int current_auton_selection = 0;
 bool auto_started = false;
+bool wingbool = false;
 
 void pre_auton(void) {
   vexcodeInit();
@@ -63,20 +64,31 @@ void autonomous(void) {
   }
 }
 
+void wings () {
+  if (wingbool) { 
+    wing.set(false);
+    wingbool = false;
+  } else { 
+    wing.set(true); 
+    wingbool = true;
+  }
+}
+
 void usercontrol(void) {
+  con1.ButtonR1.pressed(wings);
+
   while (true) {
     //robot.control_arcade();
-    // double leftPos = con1.Axis2.position(pct);
-    // double rightPos = con1.Axis4.position(pct);
 
     double leftPos = scurve(con1.Axis2.position(pct));
-    double rightPos = scurve(con1.Axis4.position(pct)) * 0.75;
+    double rightPos = scurve(con1.Axis1.position(pct)) * 0.5;
   
     double left  = leftPos - rightPos;
     double right = leftPos + rightPos;
 
     left_motor_group.spin(directionType::fwd, left, voltageUnits::volt);
     right_motor_group.spin(directionType::fwd,right, voltageUnits::volt);
+
     task::sleep(10);
   }
 }
