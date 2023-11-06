@@ -80,14 +80,19 @@ void usercontrol(void) {
   while (true) {
     //robot.control_arcade();
 
-    double leftPos = scurve(con1.Axis2.position(pct));
-    double rightPos = scurve(con1.Axis1.position(pct)) * 0.5;
+    double leftPos = con1.Axis2.position(pct); //scurve(con1.Axis2.position(pct));
+    double rightPos = con1.Axis1.position(pct) * 0.5; //scurve(con1.Axis1.position(pct)) * 0.5;
+
+    con1.Screen.setCursor(1, 1);
+    con1.Screen.print(leftPos);
+    con1.Screen.setCursor(2, 1);
+    con1.Screen.print(rightPos);
   
     double left  = leftPos - rightPos;
     double right = leftPos + rightPos;
 
-    left_motor_group.spin(directionType::fwd, left, voltageUnits::volt);
-    right_motor_group.spin(directionType::fwd,right, voltageUnits::volt);
+    left_motor_group.spin(directionType::fwd, left, percent);
+    right_motor_group.spin(directionType::fwd,right, percent);
 
     task::sleep(10);
   }

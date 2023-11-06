@@ -7,12 +7,12 @@ brain Brain;
 
 vex::controller con1 = controller(vex::controllerType::primary);
 
-vex::motor       front_right_motor  = vex::motor(vex::PORT1, vex::gearSetting::ratio6_1, true);
-vex::motor       middle_right_motor = vex::motor(vex::PORT2, vex::gearSetting::ratio6_1, true);
-vex::motor       back_right_motor   = vex::motor(vex::PORT3, vex::gearSetting::ratio6_1, false);
-vex::motor       front_left_motor   = vex::motor(vex::PORT11, vex::gearSetting::ratio6_1, false);
+vex::motor       front_right_motor  = vex::motor(vex::PORT19, vex::gearSetting::ratio6_1, true);
+vex::motor       middle_right_motor = vex::motor(vex::PORT20, vex::gearSetting::ratio6_1, true);
+vex::motor       back_right_motor   = vex::motor(vex::PORT10, vex::gearSetting::ratio6_1, true);
+vex::motor       front_left_motor   = vex::motor(vex::PORT1, vex::gearSetting::ratio6_1, false);
 vex::motor       middle_left_motor  = vex::motor(vex::PORT12, vex::gearSetting::ratio6_1, false);
-vex::motor       back_left_motor    = vex::motor(vex::PORT13, vex::gearSetting::ratio6_1, true);
+vex::motor       back_left_motor    = vex::motor(vex::PORT13, vex::gearSetting::ratio6_1, false);
 vex::motor_group left_motor_group   = vex::motor_group(front_left_motor, middle_left_motor, back_left_motor);
 vex::motor_group right_motor_group  = vex::motor_group(front_right_motor, middle_right_motor, back_right_motor);
 vex::digital_out wing = digital_out(Brain.ThreeWirePort.A);
