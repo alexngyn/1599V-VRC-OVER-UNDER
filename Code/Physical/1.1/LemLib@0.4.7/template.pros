@@ -1,0 +1,22 @@
+{
+    "py/object": "pros.conductor.templates.external_template.ExternalTemplate",
+    "py/state": {
+        "metadata": {},
+        "name": "LemLib",
+        "supported_kernels": "^3.8.0",
+        "system_files": [
+            "firmware\\LemLib.a",
+            "include\\lemlib\\chassis\\odom.hpp",
+            "include\\lemlib\\pose.hpp",
+            "include\\lemlib\\util.hpp",
+            "include\\lemlib\\chassis\\trackingWheel.hpp",
+            "include\\lemlib\\pid.hpp",
+            "include\\lemlib\\api.hpp",
+            "include\\lemlib\\logger.hpp",
+            "include\\lemlib\\chassis\\chassis.hpp"
+        ],
+        "target": "v5",
+        "user_files": [],
+        "version": "0.4.7"
+    }
+}

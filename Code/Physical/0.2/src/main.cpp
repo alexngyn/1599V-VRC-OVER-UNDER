@@ -18,7 +18,7 @@ using namespace vex;
 
 vex::competition Competition;
 
-Drive robot(left_motor_group, right_motor_group, 4.125, 0.428571);
+//Drive robot(left_motor_group, right_motor_group, 4.125, 0.428571);
 
 int current_auton_selection = 0;
 bool auto_started = false;
@@ -95,6 +95,9 @@ void usercontrol(void) {
     right_motor_group.spin(directionType::fwd,right, percent);
 
     task::sleep(10);
+
+    uint32_t ledbuffer[10];
+    vexAdiAddrLedSet(1,1,ledbuffer,1,1,0);
   }
 }
 

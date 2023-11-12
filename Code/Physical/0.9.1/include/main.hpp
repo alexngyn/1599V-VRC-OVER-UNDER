@@ -60,20 +60,22 @@
  * button press in opcontrol() for testing purposes).
  */
 #ifdef __cplusplus
-extern "C" 
-#endif
-
+extern "C" {
+#endif // --cplusplus
 void autonomous(void);
 void initialize(void);
 void disabled(void);
 void competition_initialize(void);
 void opcontrol(void);
+#ifdef __cplusplus
+}
+#endif // --cplusplus
 
 #ifdef __cplusplus
 /**
  * You can add C++-only headers here
  */
 //#include <iostream>
-#endif
+#endif // --cplusplus
 
 #endif  // _PROS_MAIN_H_
