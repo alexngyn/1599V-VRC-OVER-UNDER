@@ -80,5 +80,3 @@ SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
 SpacesInCStyleCastParentheses: false
 SpacesInConditionalStatement: false
-TabWidth: 4
-UseTab: Never

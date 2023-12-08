@@ -37,7 +37,7 @@
 #include "api.hpp"
 #include "setup.hpp"
 #include "opcontrol.hpp"
-#include "auton/autonomous.hpp"
+#include "autonomous.hpp"
 #include "addrled.hpp"
 
 /**

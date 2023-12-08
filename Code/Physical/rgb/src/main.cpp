@@ -1,7 +1,7 @@
 #include "main.h"
 #include <cstdio>
 
-#define LED_PORT 'e'
+#define LED_PORT 'h'
 #define LED_LENGTH 60
 
 uint32_t ledbuffer[LED_LENGTH];
@@ -60,7 +60,7 @@ void gradient(std::uint32_t start_color, std::uint32_t end_color, int fade_width
     for (int i = 0; i < fade_width; i++) {
     	ledbuffer_v[i] = interpolate_rgb(start_color, end_color, i, fade_width);
     }
-	for (int i = 3; i < fade_width*2; i++) {
+	for (int i = fade_width; i < fade_width*2; i++) {
     	ledbuffer_v[i] = interpolate_rgb(end_color, start_color, i, fade_width);
     }
 }
