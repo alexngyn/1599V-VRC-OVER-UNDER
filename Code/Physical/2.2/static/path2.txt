@@ -1,0 +1,38 @@
+50, -55, 82.293
+48.886, -53.34, 79.147
+47.669, -51.753, 100
+46.389, -50.217, 100
+45.071, -48.712, 100
+43.726, -47.232, 99.609
+42.367, -45.765, 97.026
+41, -44.305, 94.371
+39.63, -42.848, 91.64
+38.262, -41.388, 88.825
+36.902, -39.922, 85.918
+35.556, -38.443, 82.909
+34.228, -36.947, 79.787
+32.926, -35.43, 76.538
+31.656, -33.884, 73.144
+30.431, -32.304, 69.585
+29.277, -30.671, 65.834
+28.206, -28.982, 61.857
+27.272, -27.215, 57.607
+26.536, -25.357, 53.019
+26.168, -23.396, 48
+26.383, -21.418, 48
+27.371, -19.695, 48
+28.902, -18.418, 53.948
+30.706, -17.563, 49.022
+32.61, -16.958, 43.539
+34.566, -16.542, 37.254
+36.546, -16.264, 29.664
+38.538, -16.09, 19.288
+40, -16, 0
+40, -16, 0
+59.962, -14.769, 0
+endData
+127
+100
+200
+50, -55, 42.717, -42.869, 6.827, -17.405, 40, -16
+#PATH.JERRYIO-DATA {"appVersion":"0.5.1","format":"LemLib v0.4.x (inch, byte-voltage)","gc":{"robotWidth":12,"robotHeight":12,"robotIsHolonomic":false,"showRobot":false,"uol":2.54,"pointDensity":2,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"VRC 2024 - Over Under","signature":"VRC 2024 - Over Under","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"7xrh64Zq34","x":50,"y":-55,"lock":false,"visible":true,"heading":315,"__type":"end-point"},{"uid":"Hiywm3j6PF","x":42.716823647826324,"y":-42.869159392335916,"lock":false,"visible":true,"__type":"control"},{"uid":"DoA3mYHGZr","x":6.8267615429733395,"y":-17.40526058051283,"lock":false,"visible":true,"__type":"control"},{"uid":"WGxghRYekv","x":40,"y":-16,"lock":false,"visible":true,"heading":90,"__type":"end-point"}],"speedProfiles":[],"lookaheadKeyframes":[],"uid":"09OdNkHEl9"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":127,"label":"127"},"step":1,"from":48,"to":100},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":4,"label":"4"},"step":0.01,"from":1.4,"to":1.8},"maxDecelerationRate":127},"name":"Path","uid":"o16vQTgFI4","lock":false,"visible":true}]}

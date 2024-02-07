@@ -1,0 +1,53 @@
+30, -10, 100
+29.267, -8.139, 100
+28.569, -6.266, 100
+27.959, -4.361, 100
+27.428, -2.434, 100
+26.949, -0.492, 100
+26.593, 1.476, 100
+26.3, 3.453, 100
+26.074, 5.44, 100
+25.975, 7.438, 100
+25.945, 9.436, 100
+25.988, 11.436, 100
+26.15, 13.429, 100
+26.395, 15.413, 100
+26.717, 17.386, 100
+27.125, 19.344, 100
+27.646, 21.275, 100
+28.246, 23.182, 100
+28.925, 25.062, 99.037
+29.686, 26.912, 96.438
+30.544, 28.718, 93.768
+31.491, 30.479, 91.019
+32.518, 32.195, 88.185
+33.627, 33.858, 85.258
+34.818, 35.464, 82.226
+36.093, 37.004, 79.078
+37.454, 38.468, 75.798
+38.903, 39.846, 72.371
+40.441, 41.124, 68.773
+42.071, 42.281, 64.976
+43.793, 43.296, 60.945
+45.606, 44.136, 56.629
+47.502, 44.762, 51.956
+49.469, 45.106, 48
+51.463, 45.06, 48
+53.406, 44.611, 48
+55.15, 43.645, 48
+56.632, 42.312, 48
+57.77, 40.673, 50.702
+58.613, 38.863, 47.855
+59.214, 36.959, 42.224
+59.618, 35.002, 35.713
+59.865, 33.019, 27.708
+59.987, 31.023, 16.116
+60, 30, 0
+60, 30, 0
+60.252, 10.002, 0
+endData
+127
+100
+200
+30, -10, 11.876, 32.022, 60.054, 65.935, 60, 30
+#PATH.JERRYIO-DATA {"appVersion":"0.5.1","format":"LemLib v0.4.x (inch, byte-voltage)","gc":{"robotWidth":12,"robotHeight":12,"robotIsHolonomic":false,"showRobot":false,"uol":2.54,"pointDensity":2,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"VRC 2024 - Over Under","signature":"VRC 2024 - Over Under","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"diE5VLHi6l","x":30,"y":-10,"lock":false,"visible":true,"heading":340,"__type":"end-point"},{"uid":"DefDCLecLo","x":11.876284959463412,"y":32.02175750283803,"lock":false,"visible":true,"__type":"control"},{"uid":"TnaKxCWbSv","x":60.05393621097821,"y":65.93538439567118,"lock":false,"visible":true,"__type":"control"},{"uid":"aftbJZH813","x":60,"y":30,"lock":false,"visible":true,"heading":180,"__type":"end-point"}],"speedProfiles":[],"lookaheadKeyframes":[],"uid":"jiWKJFcbfK"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":127,"label":"127"},"step":1,"from":48,"to":100},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":4,"label":"4"},"step":0.01,"from":1.4,"to":1.8},"maxDecelerationRate":127},"name":"Path","uid":"0tpYK3cELa","lock":false,"visible":true}]}
