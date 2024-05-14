@@ -1,0 +1,36 @@
+55.074, -52.267, 113.882
+53.809, -50.718, 111.629
+52.533, -49.178, 109.33
+51.25, -47.643, 106.981
+49.967, -46.11, 104.58
+48.685, -44.575, 102.123
+47.408, -43.035, 99.604
+46.139, -41.489, 97.021
+44.882, -39.934, 94.366
+43.638, -38.368, 91.635
+42.41, -36.789, 88.82
+41.202, -35.195, 85.913
+40.02, -33.582, 82.904
+38.87, -31.946, 79.781
+37.758, -30.284, 76.532
+36.69, -28.593, 73.138
+35.687, -26.862, 69.579
+34.766, -25.087, 65.827
+33.958, -23.259, 61.85
+33.312, -21.367, 57.6
+32.938, -19.405, 53.012
+32.997, -17.412, 48
+33.753, -15.579, 48
+35.183, -14.205, 43.37
+36.99, -13.369, 37.083
+38.933, -12.91, 29.462
+40.922, -12.714, 18.983
+42.34, -12.664, 0
+42.34, -12.664, 0
+62.328, -11.964, 0
+endData
+127
+127
+200
+55.074, -52.267, 44.505, -39.151, 19.209, -12.666, 42.34, -12.664
+#PATH.JERRYIO-DATA {"appVersion":"0.5.1","format":"LemLib v0.4.x (inch, byte-voltage)","gc":{"robotWidth":12,"robotHeight":12,"robotIsHolonomic":false,"showRobot":false,"uol":2.54,"pointDensity":2,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"VRC 2024 - Over Under","signature":"VRC 2024 - Over Under","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"eV0hERSjoB","x":55.0742554523407,"y":-52.26704424056003,"lock":false,"visible":true,"heading":315,"__type":"end-point"},{"uid":"pyOXRCJLnq","x":44.50493855092371,"y":-39.15090398940401,"lock":false,"visible":true,"__type":"control"},{"uid":"C8ayxkljhC","x":19.208662403049654,"y":-12.666427870051015,"lock":false,"visible":true,"__type":"control"},{"uid":"m2tuCnLeBC","x":42.34013870364551,"y":-12.663941152118042,"lock":false,"visible":true,"heading":90,"__type":"end-point"}],"speedProfiles":[],"lookaheadKeyframes":[],"uid":"2XfwYjbfuC"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":127,"label":"127"},"step":1,"from":48,"to":127},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":4,"label":"4"},"step":0.01,"from":1.4,"to":1.8},"maxDecelerationRate":127},"name":"Path","uid":"ldfMxgXScr","lock":false,"visible":true}]}
