@@ -2,8 +2,7 @@
 
 We are a team from Saigon South International School.
 
-
-# Comps:
+# Competitions:
 Nov 11 Scrimage at SSIS
 
 We did not do well because the low bot design restricts a good catapult and also we had to do a two motor catapult so did not have a effective pnumatic intake either. Cool RGB thou.
@@ -16,15 +15,14 @@ We did okay, 18th out of 32.
 
 Dec 14 Scrimage at Fullbright
 
-The ref did not read the rule book (SF 2-2 we should have won)
+Made to SF
 
 Jan 20 North Nationals (Hanoi)
 
-they spelt my award wrong :(
+Judges Award
 
 Feb 7 South Nationals at SSIS
 
-![final render](final.20.jpg)
+Design Award & Tournement Champion
 
-# Progress:
-we are working on our autonomous and giving our driver practice
+![final render](final.20.jpg)
